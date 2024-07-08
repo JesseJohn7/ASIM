@@ -1,0 +1,130 @@
+/* Reset some default browser styles */
+body, h2, p, form, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and container styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f6fa;
+}
+
+.login-container {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Logo styles */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6366f1;
+}
+
+/* Form heading and subheading styles */
+.login-form h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.login-form p {
+    color: #6b7280;
+    margin-bottom: 24px;
+}
+
+/* Input group styles */
+.input-group {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Options styles */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.options label {
+    font-size: 14px;
+    color: #4b5563;
+}
+
+.options .forgot-password {
+    color: #6366f1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.options .forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+.btn {
+    background-color: #6366f1;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #4f46e5;
+}
+
+/* Signup link styles */
+.signup-link {
+    margin-top: 24px;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #6366f1;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
